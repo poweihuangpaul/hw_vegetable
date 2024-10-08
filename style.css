@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+html{
+    background-color: #EDF2C5;
+ 	box-sizing: border-box;
+}
+
+*,*:before,*:after{box-sizing: inherit}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <width>: Use a value from 62.5 to 100
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+}
+
+body{
+	font-family: "Noto Sans", sans-serif;
+   	width: 1440px;
+   	height: 1024px;
+	
+}
+
+.container{
+    max-width: 1122px;
+    margin: auto;
+	
+}
+
+
+.header{
+	width: 1122px;
+	height: 62px;
+    margin-bottom: 18px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-title{ 
+    font-family: "Noto Sans", sans-serif;
+    font-size: 44px;
+    color: #778A50 ;
+    font-weight: bold;
+    font-weight: 900;
+	wide:254;
+}
+
+.btn-group{
+	margin-bottom: 0 px;
+    display: flex;
+    height: 30px;
+    gap: 10px;
+}
+
+.img-btn{    
+	width: 24px;
+    height: 24px;
+}
+
+.btn-word{
+    font-size: 14px;
+    color:#778A50 ;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    border:1.5px solid#778A50;
+    border-radius: 4px 4px;
+    background-color: #edf2c5;
+    padding: 4px 4px;
+}
+
+.nav-list{
+    height: 44px;
+	width: 1120px;
+    display:flex; 
+    list-style: none;
+    flex-direction: row;
+    padding-left: 30px; 
+    gap: 100px;
+    border-radius: 3px;
+    background-color: #778A50; 
+}
+
+.navli{
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    color: #EDF2C5;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 44px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+	
+}
+
+.vegetables-title{
+    background-color:#778A50 ;
+    width: 528px;
+    line-height: 45px;
+	border-radius: 3px;
+}
+
+.vegetables-title-text{
+    color: #EDF2C5;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.vegetables-img{
+    width: 528px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-title{
+    background-color:#778A50 ;
+    width: 528px;
+    line-height: 45px;
+	border-radius: 3px;
+}
+
+.contact-title-text{
+    color: #EDF2C5;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+	
+}
+
+.contact-word{
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+    width: 528px;
+    height: 140px;
+}
+
+.contact-1{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 18px;
+}
+
+.line{
+    height: 1.5px;
+    width: 496px;
+    background-color: #7D7D7D;
+    margin: auto;
+}
+
+.information{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.right{
+    font-size: 12px;
+}
+
+
+.footer{
+    background-color: #778A50;
+    height: 60px;
+	width: 1440px;
+    font-size: 12px;
+    color: #EDF2C5;
+    text-align: center;
+    line-height: 60px;
+	margin-top: 154px; 
+	
+}
